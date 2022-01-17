@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T02:08:51.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dr3FWihi3DGRBl-Uk6lq" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T02:51:06.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="TgoblGaGrgkQQmqXx_sy" version="16.2.4" type="github">
   <diagram id="x9_vDVGrkxcLB9mls0GU" name="Page-1">
     <mxGraphModel dx="2249" dy="3132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -579,7 +579,13 @@
         <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-244" value="双流合并&lt;br&gt;CoGroup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="-1213" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-251" value="Cogroup" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;comic=0;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;opacity=60;" vertex="1" parent="1">
+        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-259" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="1" source="Ak1ZEkQ7FC0WPa4JEUtc-251" target="Ak1ZEkQ7FC0WPa4JEUtc-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-261" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="1" source="Ak1ZEkQ7FC0WPa4JEUtc-251" target="Ak1ZEkQ7FC0WPa4JEUtc-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-251" value="Cogroup逻辑" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;comic=0;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-252" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;" edge="1" parent="1">
@@ -605,6 +611,12 @@
         </mxCell>
         <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-256" value="KeyStream" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="15" y="280" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-258" value="左右流都能匹配&lt;br&gt;（不需要判断与或关系，因为肯定都满足）" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;comic=0;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=none;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="285" y="160" width="355" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-260" value="左右流只有一个能匹配&lt;br&gt;（从RuleID提取与或字段，与的话不满足，或的话满足）" style="whiteSpace=wrap;html=1;fontSize=11;fillColor=none;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;comic=0;sketch=0;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="285" y="270" width="355" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
