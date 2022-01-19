@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-19T03:04:35.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="jpNUA1c1iGFR1eU1oag8" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-19T03:12:31.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="hvBdSAoF6C4dethleNBc" version="16.2.4" type="github">
   <diagram id="x9_vDVGrkxcLB9mls0GU" name="Page-1">
-    <mxGraphModel dx="1861" dy="4006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2461" dy="3166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -490,7 +490,7 @@
           <mxGeometry x="-10" y="-1410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-211" value="KeyByBean&#xa;数据模型" style="shape=table;startSize=45;container=1;collapsible=0;childLayout=tableLayout;rounded=0;shadow=0;comic=0;sketch=0;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-76" y="-960" width="180" height="158" as="geometry" />
+          <mxGeometry x="-76" y="-960" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-212" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;comic=0;sketch=0;" vertex="1" parent="Ak1ZEkQ7FC0WPa4JEUtc-211">
           <mxGeometry y="45" width="180" height="37" as="geometry" />
@@ -524,24 +524,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-219" value="{K=V}格式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;shadow=0;comic=0;sketch=0;startSize=0;" vertex="1" parent="Ak1ZEkQ7FC0WPa4JEUtc-216">
-          <mxGeometry x="120" width="60" height="38" as="geometry">
-            <mxRectangle width="60" height="38" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-265" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;comic=0;sketch=0;" vertex="1" parent="Ak1ZEkQ7FC0WPa4JEUtc-211">
-          <mxGeometry y="120" width="180" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-266" value="Relation" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;shadow=0;comic=0;sketch=0;startSize=0;" vertex="1" parent="Ak1ZEkQ7FC0WPa4JEUtc-265">
-          <mxGeometry width="60" height="38" as="geometry">
-            <mxRectangle width="60" height="38" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-267" value="ENUM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;shadow=0;comic=0;sketch=0;startSize=0;" vertex="1" parent="Ak1ZEkQ7FC0WPa4JEUtc-265">
-          <mxGeometry x="60" width="60" height="38" as="geometry">
-            <mxRectangle width="60" height="38" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Ak1ZEkQ7FC0WPa4JEUtc-268" value="与或关系" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;rounded=0;shadow=0;comic=0;sketch=0;startSize=0;" vertex="1" parent="Ak1ZEkQ7FC0WPa4JEUtc-265">
           <mxGeometry x="120" width="60" height="38" as="geometry">
             <mxRectangle width="60" height="38" as="alternateBounds" />
           </mxGeometry>
